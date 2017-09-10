@@ -1,2 +1,1 @@
-# code-challenge
-Lucky Day Developer Challenge
+# Lucky Day Developer Challenge
