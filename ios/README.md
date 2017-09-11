@@ -1,15 +1,15 @@
-# Lucky Day Android Photo Search Challenge
+# Lucky Day iOS Photo Search Challenge
 
 ## Description 
 
-A simple Android app to fetch popular images from Flickr and display them.
+A simple iOS app to fetch popular images from Flickr and display them.
 
 ## Goals
 
 This challenge is designed to test your skills with:
 
-* Java
-* Android SDK
+* Swift / Objective C
+* iOS SDK
 * Object-Oriented Design 
 * Consuming RESTful APIs
 * Git
@@ -19,14 +19,14 @@ This challenge generally takes candidates no more than 3 hours to complete.
 ## Requirements
 
 1. Setup a public GitHub repository to host the code.
-2. In Android Studio, create a new project:
+2. In Xcode, create a new Xcode project:
    - Consume the [Flickr Public Feed](https://www.flickr.com/services/feeds/docs/photos_public/) to display the title, image, & published date of the public photos for any given Flickr search keywords or phrase.
    - Create a basic landing page with search bar at the top. User should be able to search for any keywords or phrase, and on new search, the screen should recycle to show new search results.  
    - Make the UI spiffy.
 
 ### Bonus Points
 
-* Writing local unit tests (big plus).
+* Writing local unit tests or UI tests (big plus).
 * Paginate the search results when user scrolls down
 * Anything else cool that you can think of.
 
