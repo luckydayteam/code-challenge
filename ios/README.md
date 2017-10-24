@@ -32,7 +32,7 @@ This challenge generally takes candidates no more than 3 hours to complete.
 
 ## Submission Guidelines
 
-1. Setup a public GitHub repository to host the code.
+1. Setup a public GitHub repository 'code-challenge' to host the code.
 2. Create a README file within the repository that contains the following:
    - Brief walkthrough of app design / choices made
    - Briefly explain your object oriented analysis and design
