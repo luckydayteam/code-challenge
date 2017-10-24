@@ -18,7 +18,7 @@ This challenge generally takes candidates no more than 3 hours to complete.
 
 ## Requirements
 
-1. Setup a public GitHub repository to host the code.
+1. Setup a public GitHub repository 'code-challenge' to host the code.
 2. In Android Studio, create a new project:
    - Consume the [Flickr Public Feed](https://www.flickr.com/services/feeds/docs/photos_public/) to display the title, image, & published date of the public photos for any given Flickr search keywords or phrase.
    - Create a basic landing page with search bar at the top. User should be able to search for any keywords or phrase, and on new search, the screen should recycle to show new search results.  
