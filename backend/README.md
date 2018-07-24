@@ -2,7 +2,7 @@
 
 ## Description 
 
-Build a simple API to fetch popular images from Flickr and display them.
+Build a simple API to fetch popular images from Flickr and return them in JSON format.
 
 ## Goals
 
@@ -23,10 +23,9 @@ This challenge generally takes candidates no more than 3 hours to complete.
    - Consume the [Flickr Public Feed](https://www.flickr.com/services/feeds/docs/photos_public/) to display the title, image, & published date of the public photos for any given Flickr search keywords or phrase.
    - Create an API that accepts a parameter 'q' with the search string. User should be able to search for any keywords or phrase, and on new search, the API should return new search results.  
    - Make the API response JSON however format you prefer.
+3. Writing local unit tests.
 
 ### Bonus Points
-
-* Writing local unit tests (big plus).
 * Build an API Pagination to pass page and limit. 
 * Anything else cool that you can think of.
 
