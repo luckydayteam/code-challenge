@@ -2,12 +2,12 @@
 
 ## Description 
 
-Provide a HA infrastructure for a single tier web application role that can heal from termination of an instance. The web app server should be able to respond with a unique identifier like its local ip address. 
+Provide a HA infrastructure for a single tier web application role that can heal from termination of an instance. The web app server should be able to respond with a unique identifier like its local public ip address. Page response should return 'Health Checker: OK'.
 
 ## Goals
 
 This challenge is designed to test your skills with:
-* Building into AWS: vpc, alb, ec2, asg 
+* Building into AWS: vpc, alb, ec2, asg
 * Infrastructure-as-code (Iac) using Cloudformation, Terraform, or Serverless Framework  
 * Git
 
@@ -15,7 +15,8 @@ This challenge is designed to test your skills with:
 
 1. Setup a public GitHub repository 'code-challenge' to host the code.
 2. Use Clouformation, Terraform, or Serverless Framework to setup infrastructure
-3. Setup the infrastructure in 'us-west'
+3. Setup the infrastructure in 'us-west' region.
+4. 
 
 ### Bonus Points
 
