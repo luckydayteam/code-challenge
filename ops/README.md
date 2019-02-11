@@ -7,7 +7,7 @@ Provide a HA infrastructure for a single tier web application role that can heal
 ## Goals
 
 This challenge is designed to test your skills with:
-* Building into AWS: vpc, alb, ec2, asg
+* Building into AWS: VPC, ALB, EC2, ASG
 * Infrastructure-as-code (Iac) using Cloudformation, Terraform, or Serverless Framework  
 * Git
 
@@ -15,7 +15,8 @@ This challenge is designed to test your skills with:
 
 1. Setup a public GitHub repository 'code-challenge' to host the code.
 2. Use Clouformation, Terraform, or Serverless Framework to setup infrastructure
-3. Setup the infrastructure in 'us-west' region.
+3. Setup a [Free-Tier AWS account](https://aws.amazon.com/free/) with your own email and credentials, or use your existing AWS account. 
+4. Setup the infrastructure in 'us-west' region with 't3.nano' EC2 instance.
 
 ### Bonus Points
 
