@@ -42,9 +42,9 @@ Bob has a new job as CTO of a Social Media startup company. To start off with, h
 | Blog | VARCHAR(100), NULL | User's blog url |
 
 **Sample Data**
-| Id | Email | FirstName | LastName | PhotoUrl | PhoneNumber | Region | SchoolName | SchoolStartYear | SchoolEndYear | Industry | JobTitle | Company | JobStartYear | JobEndYear | Bio | Facebook | Twitter | Blog |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
-| 1 | johnsmith@email.com | John | Smith | www.someimagehost.com/blahblahimage123.png | 3100000000 | Greater Los Angeles | University of California, Los Angeles | 2000 | 2004 | Software Professional | Software Developer | Fun Times, Inc | 2014 | Present | Experienced developer with a proven track record in .NET development | www.facebook.com/johnblahblah123  | @johnblahblah123 | www.johnblahblah123.net | 
+| Id | Email | FirstName | LastName | PhotoUrl | PhoneNumber | Region | SchoolName | SchoolStartYear | SchoolEndYear | Industry | JobTitle | Company | JobStartYear | JobEndYear | Bio | Facebook | Twitter | Blog |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | johnsmith@email.com | John | Smith | www.someimagehost.com/blahblahimage123.png | 3100000000 | Greater Los Angeles | University of California, Los Angeles | 2000 | 2004 | Software Professional | Software Developer | Fun Times, Inc | 2014 | Present | Experienced developer with a proven track record in .NET development | www.facebook.com/johnblahblah123 | @johnblahblah123 | www.johnblahblah123.net | 
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | 
 
 Visually this application looks something like this:
@@ -56,7 +56,6 @@ All is well for Bob until his clients ask if he can incorporate additional field
 Armed with this information, Bob decides to rearchitect his existing design.
 
 ## Requirements
-
 1. Setup a public GitHub repository 'code-challenge' to commit and push your code.
 2. Create a locally embedded NoSQL database, our recommendation is to use [LiteDB](https://www.google.com) (it's free and easy to use!). If you do plan on using another third party provider, please be very detailed in your explanation for how to setup, run, and use this provider.
    - **IMPORTANT:** Spend some time to define your collection and schema design. How will your new design accomodate these new fields? Let's say we were to allow the user to store as many previous working experiences as they would like, would your design be able to scale?
