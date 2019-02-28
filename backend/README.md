@@ -20,8 +20,9 @@ This challenge generally takes candidates no more than 6 hours to complete.
 Bob has a new job as CTO of a Social Media startup company. To start off with, he creates a UsersProfile table with the following relational database schema:
 
 **USERSPROFILE Table**
-| Column Name | Data Type | Description |
-| --- | --- | --- |
+
+| Column Name  | Data Type | Description |
+| ------------- | ------------- |------------- |
 | Id | INTEGER | Unique identifier |
 | EMAIL | VARCHAR(100) | User's email address |
 | FirstName | VARCHAR(100) | User's first name |
@@ -42,7 +43,6 @@ Bob has a new job as CTO of a Social Media startup company. To start off with, h
 | Twitter | VARCHAR(100), NULL | User's Twitter handle |
 | Blog | VARCHAR(100), NULL | User's blog url |
 
-**Sample Data**
 | Id | Email | FirstName | LastName | PhotoUrl | PhoneNumber | Region | SchoolName | SchoolStartYear | SchoolEndYear | Industry | JobTitle | Company | JobStartYear | JobEndYear | Bio | Facebook | Twitter | Blog | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | johnsmith@email.com | John | Smith | www.someimagehost.com/blahblahimage123.png | 3100000000 | Greater Los Angeles | University of California, Los Angeles | 2000 | 2004 | Software Professional | Software Developer | Fun Times, Inc | 2014 | Present | Experienced developer with a proven track record in .NET development | www.facebook.com/johnblahblah123 | @johnblahblah123 | www.johnblahblah123.net | 
