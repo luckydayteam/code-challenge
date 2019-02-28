@@ -60,7 +60,7 @@ Armed with this information, Bob decides to rearchitect his existing design.
 
 ## Requirements
 1. Setup a public GitHub repository 'code-challenge' to commit and push your code.
-2. Create a locally embedded NoSQL database, our recommendation is to use [LiteDB](https://www.google.com) (it's free and easy to use!). If you do plan on using another third party provider, please be very detailed in your explanation for how to setup, run, and use this provider.
+2. Create a locally embedded NoSQL database, our recommendation is to use [LiteDB](http://www.litedb.org/) (it's free and easy to use!). If you do plan on using another third party provider, please be very detailed in your explanation for how to setup, run, and use this provider.
    - **IMPORTANT:** Spend some time to define your collection and schema design. How will your new design accomodate these new fields? Let's say we were to allow the user to store as many previous working experiences as they would like, would your design be able to scale?
 3. In Visual Studio or whichever method you prefer, create a new .NET Framework or .NET Core project.
 4. At a minimum create two web APIs with the following criterias below. Feel free to create more APIs though, if you feel you have something more ideal in mind. You can be as creative as you'd like with how you construct these APIs. For simplicity though, let's return a JSON response.
