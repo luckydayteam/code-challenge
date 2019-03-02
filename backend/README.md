@@ -19,7 +19,7 @@ This challenge generally takes candidates no more than 6 hours to complete.
 ## Challenge
 Bob has a new job as CTO of a Social Media startup company. To start off with, he creates a UsersProfile table with the following relational database schema:
 
-**USERSPROFILE Table**
+**UserProfile Table**
 
 | Column Name  | Data Type | Description |
 | ------------- | ------------- |------------- |
@@ -63,9 +63,8 @@ Armed with this information, Bob decides to rearchitect his existing design.
 2. Create a locally embedded NoSQL database, our recommendation is to use [LiteDB](http://www.litedb.org/) (it's free and easy to use!). If you do plan on using another third party provider, please be very detailed in your explanation for how to setup, run, and use this provider.
    - **IMPORTANT:** Spend some time to define your collection and schema design. How will your new design accomodate these new fields? Let's say we were to allow the user to store as many previous working experiences as they would like, would your design be able to scale?
 3. In Visual Studio or whichever method you prefer, create a new .NET Framework or .NET Core project.
-4. At a minimum create two web APIs with the following criterias below. Feel free to create more APIs though, if you feel you have something more ideal in mind. You can be as creative as you'd like with how you construct these APIs. For simplicity though, let's return a JSON response.
-   1. Get the user's profile using the user's id.
-   2. Update the user's profile using the user's id.
+4. At a minimum create a web API with the following criteria below. Feel free to create more APIs though, if you feel you have something more ideal in mind. You can be as creative as you'd like with how you construct these APIs. For simplicity though, let's return a JSON response.
+   1. Get a list of users given a particular region and industry.
 5. Write a few local unit tests. At a minimum, please cover the basic success and failure scenarios.
 
 **NOTE:** You do not need to implement any additional migration logic.
