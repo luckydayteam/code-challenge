@@ -54,7 +54,7 @@ Visually this application looks something like this:
 
 ![alt text](https://cf-s3-luckyday-test.luckydayapp.com/GitHub/jsmith.png)
 
-All is well for Bob until his clients ask if he can incorporate additional fields for his user profiles. For instance, let's say there becomes a need to expand the user's education to include more than one school. Bob could dynamically add these new columns (i.e. SchoolName2, SchoolStartYear2, SchoolEndYear2, etc) on demand for his UsersProfile table, but that doesn't sound very scalable to him. As with many things, Bob took an interest in “NoSQL” years ago. He remembers the benefits that "schema-less" data can have in some cases, especially with varying metadata.
+All is well for Bob until his clients ask if he can incorporate additional fields for his user profiles. For instance, let's say there becomes a need to expand the user's education to include more than one school. Bob could dynamically add these new columns (i.e. SchoolName2, SchoolStartYear2, SchoolEndYear2, etc) on demand for his UsersProfile table, but that doesn't sound very scalable to him. As with many things, Bob took an interest in “NoSQL” years ago. He remembers the advantages that schema-less data can have for certain use cases, especially with varying metadata.
 
 Armed with this information, Bob decides to rearchitect his existing design.
 
