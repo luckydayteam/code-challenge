@@ -47,7 +47,7 @@ Bob has a new job as CTO of a social media startup company. To start off with, h
 
 | Id | Email | FirstName | LastName | PhotoUrl | PhoneNumber | Region | SchoolName | SchoolStartYear | SchoolEndYear | Industry | JobTitle | Company | JobStartYear | JobEndYear | Bio | Facebook | Twitter | Blog | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
-| 1 | johnsmith@email.com | John | Smith | www.someimagehost.com/blahblahimage123.png | 3100000000 | Greater Los Angeles | University of California, Los Angeles | 2000 | 2004 | Software Professional | Software Developer | Fun Times, Inc | 2014 | Present | Experienced developer with a proven track record in .NET development | www.facebook.com/johnblahblah123 | @johnblahblah123 | www.johnblahblah123.net | 
+| 1 | johnsmith@email.com | John | Smith | www.someimagehost.com/blahblahimage123.png | 3100000000 | Greater Los Angeles | University of California, Los Angeles | 2000 | 2004 | Software Professional | Software Developer | Fun Times, Inc | 2014 | 2019 | Experienced developer with a proven track record in .NET development | www.facebook.com/johnblahblah123 | @johnblahblah123 | www.johnblahblah123.net | 
 
 Visually this application looks something like this:
 
