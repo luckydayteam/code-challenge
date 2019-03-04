@@ -2,7 +2,7 @@
 
 ## Description 
 
-The purpose of this assignment is to take an existing design from a relational database and migrate it to a NoSQL database design. You will also implement an web API that will perform a simple operation on this new database design.
+The purpose of this assignment is to take an existing design from a relational database and migrate it to a NoSQL database design. You will also implement a web API that will perform a simple operation on this new database design.
 
 ## Goals
 
